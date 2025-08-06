@@ -4,10 +4,10 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=LineageOS kernel built with KSU, wireguard support
+kernel.string=kernel
 do.devicecheck=1
-do.modules=1
-do.systemless=0
+do.modules=0
+do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
 device.name1=fogos
